@@ -59,9 +59,10 @@
 
         <com.google.android.material.button.MaterialButton
             android:layout_width="wrap_content"
+            android:id="@+id/login_button"
             android:layout_height="wrap_content"
             android:text="login"
-            android:background="@android:color/holo_orange_dark"
+            android:backgroundTint="@android:color/holo_orange_dark"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/password_layout" />
