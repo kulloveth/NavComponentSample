@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/signUpFragment"
-        android:name="com.developer.kulloveth.navcomponentsample.fragments.SignUpFragment"
+        android:name="com.developer.kulloveth.navcomponentkotlin.fragments.SignUpFragment"
         android:label="fragment_sign_up"
         tools:layout="@layout/fragment_sign_up">
         <action
@@ -20,7 +20,7 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.developer.kulloveth.navcomponentsample.fragments.LoginFragment"
+        android:name="com.developer.kulloveth.navcomponentkotlin.fragments.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login">
         <action
@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="com.developer.kulloveth.navcomponentsample.fragments.WelcomeFragment"
+        android:name="com.developer.kulloveth.navcomponentkotlin.fragments.WelcomeFragment"
         android:label="fragment_welcome"
         tools:layout="@layout/fragment_welcome" />
 </navigation>

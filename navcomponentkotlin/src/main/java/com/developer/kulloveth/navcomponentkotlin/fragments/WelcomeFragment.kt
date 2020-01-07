@@ -12,15 +12,15 @@ import com.developer.kulloveth.navcomponentkotlin.R
 /**
  * A simple [Fragment] subclass.
  */
-class LoginFragment : Fragment() {
+class WelcomeFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-         TextView(activity).apply {
+        TextView(activity).apply {
             setText(R.string.hello_blank_fragment)
         }
 
-        return inflater.inflate(R.layout.fragment_login,container,false)
+        return inflater.inflate(R.layout.fragment_welcome,container,false)
     }
 
 

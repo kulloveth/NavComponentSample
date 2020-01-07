@@ -12,7 +12,7 @@ import com.developer.kulloveth.navcomponentkotlin.R
 /**
  * A simple [Fragment] subclass.
  */
-class LoginFragment : Fragment() {
+class SignUpFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
@@ -20,7 +20,7 @@ class LoginFragment : Fragment() {
             setText(R.string.hello_blank_fragment)
         }
 
-        return inflater.inflate(R.layout.fragment_login,container,false)
+        return inflater.inflate(R.layout.fragment_sign_up,container,false)
     }
 
 
