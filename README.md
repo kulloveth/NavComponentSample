@@ -5,8 +5,10 @@ Sample Project to implement navComponent in both java and kotlin
 
 # Modules
 * app
+
 module for the java implementaion
 * navcomponentkotlin
+
 module for kotlinimplementation
 
 # FirstPartyLibrary
