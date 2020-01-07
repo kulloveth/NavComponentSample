@@ -59,7 +59,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:layout_width="wrap_content"
-            android:id="@+id/login_button"
+            android:id="@+id/loginButton"
             android:layout_height="wrap_content"
             android:text="login"
             android:backgroundTint="@android:color/holo_orange_dark"
