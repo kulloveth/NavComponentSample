@@ -11,5 +11,4 @@ module for the java implementaion
 
 module for kotlinimplementation
 
-# FirstPartyLibrary
 
